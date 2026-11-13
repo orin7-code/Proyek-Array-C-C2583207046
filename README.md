@@ -166,79 +166,13 @@ Pengujian dilakukan untuk memastikan seluruh fitur program berjalan sesuai denga
 
 | No. | Skenario Pengujian | Input / Aksi | Hasil yang Diharapkan | Bukti |
 |---|---|---|---|---|
-| 1 | Tambah produk | Masukkan produk baru | Produk muncul dalam daftar | Screenshot |
-| 2 | Transaksi | Beli beberapa produk | Subtotal dan total benar | Screenshot |
-| 3 | Pembaruan stok | Selesaikan transaksi | Stok dan jumlah terjual berubah | Screenshot |
-| 4 | Stok tidak cukup | Beli melebihi stok | Transaksi ditolak; stok tetap | Screenshot |
-| 5 | Laporan | Tampilkan laporan | Unit, pendapatan, dan terlaris benar | Screenshot |
-| 6 | Pengurutan | Urutkan harga dan penjualan | Urutan sesuai ketentuan | Screenshot |
-| 7 | Pencarian dan stok | Cari produk; cek stok | Hasil dan peringatan tepat | ![SS6.png](SS6.png) |
-
-### Dokumentasi Hasil Pengujian
-
-#### 1. Pengujian Tambah Produk
-
-**Penjelasan:** Pengujian dilakukan dengan memasukkan data produk baru. Program diharapkan menyimpan data tersebut dan menampilkannya pada daftar produk.
-
-![Pengujian tambah produk](screenshots/01-tambah-produk.png)
-
-#### 2. Pengujian Transaksi
-
-**Penjelasan:** Pengujian dilakukan dengan membeli beberapa jenis produk dalam satu transaksi. Program diharapkan menghitung subtotal setiap produk dan total pembayaran dengan benar.
-
-![Pengujian transaksi](screenshots/02-transaksi.png)
-
-#### 3. Pengujian Pembaruan Stok
-
-**Penjelasan:** Pengujian dilakukan setelah transaksi berhasil. Program diharapkan mengurangi stok sesuai jumlah pembelian dan memperbarui jumlah produk terjual.
-
-![Pengujian pembaruan stok](screenshots/03-pembaruan-stok.png)
-
-#### 4. Pengujian Stok Tidak Cukup
-
-**Penjelasan:** Pengujian dilakukan dengan memasukkan jumlah pembelian yang melebihi stok tersedia. Program diharapkan menolak transaksi dan mempertahankan jumlah stok sebelumnya.
-
-![Pengujian stok tidak cukup](screenshots/04-stok-tidak-cukup.png)
-
-#### 5. Pengujian Laporan Penjualan
-
-**Penjelasan:** Pengujian dilakukan dengan membuka menu laporan penjualan. Program diharapkan menampilkan total unit terjual, total pendapatan, dan produk terlaris berdasarkan jumlah penjualan.
-
-![Pengujian laporan penjualan](screenshots/05-laporan-penjualan.png)
-
-#### 6. Pengujian Pengurutan
-
-**Penjelasan:** Pengujian dilakukan dengan mengurutkan produk berdasarkan harga dari termurah hingga termahal dan berdasarkan jumlah terjual dari tertinggi hingga terendah.
-
-![Pengujian pengurutan](screenshots/06-pengurutan.png)
-
-#### 7. Pengujian Pencarian dan Stok
-
-**Penjelasan:** Pengujian dilakukan dengan mencari produk berdasarkan nama dan memeriksa produk yang memiliki stok kurang dari 5. Program diharapkan menampilkan hasil pencarian serta peringatan stok menipis secara tepat.
-
-![Pengujian pencarian dan cek stok](screenshots/07-pencarian-cek-stok.png)
-
----
-
-## STRUKTUR FILE REPOSITORY
-
-```text
-Proyek-Array-C-NIM/
-│
-├── main.c
-├── README.md
-│
-└── screenshots/
-    ├── 01-tambah-produk.png
-    ├── 02-transaksi.png
-    ├── 03-pembaruan-stok.png
-    ├── 04-stok-tidak-cukup.png
-    ├── 05-laporan-penjualan.png
-    ├── 06-pengurutan.png
-    └── 07-pencarian-cek-stok.png
-```
-
-*Catatan: Sesuaikan nama file gambar dengan screenshot yang benar-benar diunggah ke repository.*
+| 1 | Tambah produk | Masukkan produk baru | Produk muncul dalam daftar | ![SS1.png](SS1.png) |
+| 2 | Transaksi | Beli beberapa produk | Subtotal dan total benar | ![SS2.png](SS2.png) |
+| 3 | Pembaruan stok | Selesaikan transaksi | Stok dan jumlah terjual berubah | ![SS3.png](SS3.png) |
+| 4 | Stok tidak cukup | Beli melebihi stok | Transaksi ditolak; stok tetap | ![SS4.png](SS4.png) |
+| 5 | Laporan | Tampilkan laporan | Unit, pendapatan, dan terlaris benar | ![SS5.png](SS5.png) |
+| 6 | Pengurutan | Urutkan harga dan penjualan | Urutan sesuai ketentuan | ![SS6.png](SS6.png) |
+| 7 | Pencarian dan stok | Cari produk; cek stok | Hasil dan peringatan tepat | ![SS7.png](SS7.png) |
 
 ---
 

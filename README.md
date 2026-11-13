@@ -9,11 +9,6 @@
 | NIM | C2583207046 |
 | Kelas | PTI3A |
 | Program Studi | Pendidikan Teknologi Informasi |
-| Fakultas | Keguruan dan Ilmu Pendidikan |
-| Mata Kuliah | Algoritma dan Pemrograman Lanjutan |
-| Dosen Pengampu | Taofik Muhammad, M.Kom. |
-| Universitas | Universitas Muhammadiyah Tasikmalaya |
-| Tahun Akademik | 2026/2027 |
 
 ---
 

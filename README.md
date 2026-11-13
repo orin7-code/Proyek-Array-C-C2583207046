@@ -3,7 +3,6 @@
 
 ### IDENTITAS MAHASISWA
 
-| Keterangan | Identitas |
 |---|---|
 | Nama | Orin Rismaya |
 | NIM | C2583207046 |

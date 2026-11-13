@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1794544547 source:c:\users\orin rismaya\downloads\sistem monitoring stok dan penjualan kantin kampus\main.c
-	<stdio.h>
-	<string.h>
-	<stdlib.h>
-	<ctype.h>
-
